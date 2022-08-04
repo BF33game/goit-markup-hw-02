@@ -1,0 +1,123 @@
+:root{
+    --primery-text-color: #757575;
+    --secondary-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --white-color:#FFFFFF;
+
+}
+.list{
+    list-style: none;
+}
+body{
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    
+}
+/*Логотип*/
+.logo{
+    color:var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.logo-top{
+    color: #000000;
+}
+/*Навигация сайта*/
+.site-nav .link{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-text-color);
+}
+/*Ссылки навигации*/
+.auth-nav .link-nav{
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.auth-nav .link-nav:hover,
+.auth-nav .link-nav:focus{
+    color: var(--accent-text-color);
+}
+/*Герой*/
+.hero{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/*Кнопка*/
+.button{
+    color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+/*Список переваг*/
+.benefits .benefits-list{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.benefits .benefits-text{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.section{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+/*Наша команда*/
+.team .team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    
+}
+.team .team-work{
+    color: var(--primery-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+}
+/*Футер*/
+/*Нижний спан*/
+.logo .logo-bottom{
+    color: var(--white-color);
+}
+.bottom{
+    font-size: 14px;
+    line-height: 1.17;
+    font-style: normal;
+}
+.bottom-adress{
+        color: var(--white-color);
+        text-decoration: none;
+}
+.bottom-nav{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
