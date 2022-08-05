@@ -5,14 +5,16 @@
     --white-color:#FFFFFF;
 
 }
-.list{
+ul{
     list-style: none;
+}
+button{
+    cursor: pointer;
 }
 body{
     color: var(--primery-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    
 }
 /*Логотип*/
 .logo{
@@ -84,7 +86,8 @@ body{
     font-size: 14px;
     line-height: 1.7;
 }
-.section{
+/*2 названия секций:Наша команда и Чем мы заимаемся*/
+.section-title {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -92,14 +95,14 @@ body{
     text-align: center;
 }
 /*Наша команда*/
-.team .team-name{
+.team-list .team-name{
+    color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     
 }
-.team .team-work{
-    color: var(--primery-text-color);
+.team-list .team-work{
     font-size: 16px;
     line-height: 1.18;
 }
@@ -120,4 +123,18 @@ body{
 .bottom-nav{
     color: var(--primery-text-color);
     text-decoration: none;
+}
+/*Стили меина для Портфолио*/
+.portfolio .portfolio-name{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+/*Не применяется стиль не могу понять почему*/
+.portfolio .portfolio-subname{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
 }
