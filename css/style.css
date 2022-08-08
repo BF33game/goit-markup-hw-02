@@ -140,6 +140,13 @@ body{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+.bottom-adress:hover,
+.bottom-nav:hover,
+.bottom-adress:focus,
+.bottom-nav:focus
+{
+    color: var(--accent-text-color);
+}
 /*Фильр кнопок Портфоио*/
 .portfolio-button{
     font-family: Roboto, sans-serif;
