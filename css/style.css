@@ -3,7 +3,8 @@
     --secondary-text-color:#212121;
     --accent-text-color:#2196F3;
     --white-color:#FFFFFF;
-
+    --background-color:#2F303A;
+    --background-color-button:#F5F4FA;
 }
 ul{
     list-style: none;
@@ -41,6 +42,9 @@ body{
 .site-nav .link:focus{
     color: var(--accent-text-color);
 }
+.link.current{
+    color: var(--accent-text-color);
+}
 /*Ссылки навигации*/
 .auth-nav .link-nav{
     color: var(--primery-text-color);
@@ -55,6 +59,9 @@ body{
     color: var(--accent-text-color);
 }
 /*Герой*/
+.section-hero{
+    background-color: var(--background-color);
+}
 .hero{
     color: var(--white-color);
     font-weight: 900;
@@ -72,16 +79,22 @@ body{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    background-color: var(--accent-text-color);
+}
+.button:hover,
+.button:focus{
+    color: var(--secondary-text-color);
+    background-color: var(--background-color-button);
 }
 /*Список переваг*/
-.benefits .benefits-list{
+.benefits-list{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
-.benefits .benefits-text{
+.benefits-text{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -95,18 +108,21 @@ body{
     text-align: center;
 }
 /*Наша команда*/
-.team-list .team-name{
+.team-name{
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     
 }
-.team-list .team-work{
+.team-work{
     font-size: 16px;
     line-height: 1.18;
 }
 /*Футер*/
+.footer{
+    background-color: var(--background-color);
+}
 /*Нижний спан*/
 .logo .logo-bottom{
     color: var(--white-color);
@@ -121,11 +137,25 @@ body{
         text-decoration: none;
 }
 .bottom-nav{
-    color: var(--primery-text-color);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+/*Фильр кнопок Портфоио*/
+.portfolio-button{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--secondary-text-color);
+    background-color:var(--background-color-button);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+}
 /*Стили меина для Портфолио*/
-.portfolio .portfolio-name{
+.portfolio-name{
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -133,7 +163,7 @@ body{
     letter-spacing: 0.06em;
 }
 /*Не применяется стиль не могу понять почему*/
-.portfolio .portfolio-subname{
+.portfolio-subname{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
